@@ -1,0 +1,235 @@
+ *{
+     box-sizing: border-box;
+        }
+ html,body{
+     width:100%;
+     max-height:100%;
+     padding: 0;
+     margin:0;
+ }
+ #main_page {
+     width:100%;
+     height:100%;
+ }
+ #finance_manager{
+     width:30%;
+     float:left;
+     height:90%;
+     /*border:1px solid  red;*/
+     margin-left: 2%;
+     margin-top: 2%;
+ }
+
+#budget{
+    margin-top: 5%;
+    width:95%;
+    height:200px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    border:1px solid #43f360;
+     padding:2% 0 2% 3%;
+}
+ .header_input{
+    display:block;
+
+     font-size: 17px;
+}
+ #title{
+     font-size: 22px;
+     /*border:1px solid #f1cbcb;*/
+     text-align: center;
+ }
+.inputs{
+     width:90%;
+     display: block;
+     padding: 5px 0 5px 5px;
+
+
+
+}
+#expense{
+    width:95%;
+    height:250px;
+    padding:2% 0 2% 3%;
+    margin-top: 5%;
+    border:1px solid red;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+.btn_input{
+    padding :4px 10px 4px 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    border:none;
+    cursor: pointer;
+    /*box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);*/
+    background-color: #43f360;
+
+}
+#values{
+
+    width:60%;
+    height:150px;
+    float:right;
+    /*border:1px solid red;*/
+    display: flex;
+    justify-content: space-around;
+
+    margin-right: 1%;
+    margin-top: 6%;
+}
+#values div{
+    width:30%;
+    height:100%;
+    /*border:1px solid blue;*/
+    text-align: center;
+
+
+}
+
+#values h2{
+    display: inline-block;
+
+}
+#values i{
+    font-size:22px ;
+    display: inline-block;
+    margin-top: -15%;
+}
+#list_of_expenses{
+    width:35%;
+     /*border: 1px solid blue;*/
+    margin-top: 2%;
+
+    float:right;
+    margin-right: 15%;
+}
+#list{
+    width:100%;
+    margin: auto;
+    display: block;
+
+    display: block;
+
+    padding:0;
+    list-style: none;
+    clear: both;
+}
+
+
+.h_list{
+    font-size: 17px;
+    opacity: 0.7;
+    width:45%;
+    display: block;
+    padding-bottom: 5px;
+    text-align: center;
+     border-bottom: 1px solid gray;
+
+}
+#list li {
+    height:30px;
+    width:100%;
+    display: block;
+    margin-bottom: 3px;
+    position:relative;
+
+}
+.err{
+
+    border:1px solid red;
+}
+.remove{
+    /*border:1px solid blue;*/
+    width:10%;
+    display: inline-block;
+    height:100%;
+    position:absolute;
+    right:0;
+     line-height: 30px;
+    text-align: center;
+    /*border:1px solid red;*/
+
+    cursor: pointer;
+    color: red;
+}
+
+.cost{
+    float:left;
+    width:45%;
+    height:100%;
+    /*border:1px solid red;*/
+    text-align: center;
+     line-height: 30px;
+}
+.name{
+    float:left;
+    width:45%;
+    height:100%;
+    /*border:1px solid red;*/
+    text-align: center;
+    margin-bottom: 0;
+    line-height: 30px;
+
+}
+.remove:hover{
+    color:purple;
+
+}
+.edit{
+     width:10%;
+    display: inline-block;
+    height:100%;
+    position:absolute;
+    left:80%;
+    line-height: 30px;
+    text-align: center;
+
+    cursor: pointer;
+    color: blue;
+}
+.edit:hover{
+    color:purple;
+}
+#edit{
+    width:500px;
+    height :450px;
+    background-color: white;
+    position:absolute;
+    margin:auto;
+    top:5%;
+    z-index: 1000;
+    left:0;
+    right:0;
+    display:none;
+    border:1px solid red;
+
+    padding-left:2px;
+}
+#edit label{
+    display: block;
+    font-size: 22px;
+    margin-left:5%;
+    margin-bottom: 10px;
+}
+#edit input{
+    display: block;
+    width:80%;
+    height:35px;
+    line-height: 35px;
+     margin-left:5%;
+    font-size: 18px;
+
+    padding-left: 3px;
+    margin-bottom: 15px;
+}
+#close{
+    margin-left: 5%;
+}
+#blur{
+    width:100%;
+    height:100%;
+    position: absolute;
+    background-color: gray;
+    opacity: 0.3;
+    display: none;
+}
+
